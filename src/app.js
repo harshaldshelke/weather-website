@@ -5,7 +5,7 @@ const hbs=require('hbs')
 const geoCode=require('./utils/geocode')
 const forcast=require('./utils/forecast')
 
-const pth=path.join(__dirname,'../public')//render static files from the directory
+const pth=path.join(__dirname,'../public')
 const templtPath= path.join(__dirname,'../templates/views');
 const partialHeaderPath= path.join(__dirname,'../templates/partials');
 app.use(express.static(pth))
